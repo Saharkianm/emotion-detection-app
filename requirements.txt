@@ -1,0 +1,7 @@
+Key dependencies:
+
+TensorFlow / Keras
+Hugging Face Datasets
+scikit-learn
+Streamlit
+Matplotlib
