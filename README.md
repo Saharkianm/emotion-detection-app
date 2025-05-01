@@ -11,24 +11,24 @@ A live demo is available via Streamlit app:
 ```bash
 streamlit run app/streamlit_app.py
 
-##Model Architecture
+## Model Architecture
 
 Tokenization & Padding
 Embedding layer
 Bidirectional LSTM + LSTM
 Dense layers with softmax output
 
-##Achieved:
+## Achieved:
 
 Train Accuracy: 98%
 Validation Accuracy: 93%
 Loss: < 0.05 (train), < 0.2 (val)
 
-##Dataset
+## Dataset
 
 We used the emotion dataset from Hugging Face Datasets: https://huggingface.co/datasets/dair-ai/emotion
 
-##Classes:
+## Classes:
 
 sadness
 joy
