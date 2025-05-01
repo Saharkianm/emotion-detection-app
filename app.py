@@ -6,8 +6,8 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import os
 
 # Get absolute paths
-model_path = os.path.join('model', 'emotion_model.h5')
-tokenizer_path = os.path.join('model', 'tokenizer.pkl')
+model_path = 'emotion_model.h5'
+tokenizer_path = 'tokenizer.pkl'
 
 # Load model and tokenizer
 model = load_model(model_path)
